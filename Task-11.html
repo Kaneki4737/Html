@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <!-- Email -->
+        <label for="email">Email :</label>
+        <input type="email" required placeholder="Email"><br>
+        <!-- DOB -->
+        <label for="DOB">DOB :</label>
+        <input type="date" required placeholder="Date of Birth"><br>
+        <!-- Color -->
+        <label for="Color">Choose a Color</label>
+        <input type="color" ><br>
+        <button type="submit">Get janm kundli lol</button>
+    </form><br>
+
+    <video controls poster="./Task-9(sub-folder)/Elephants-dream.jpg" width="300">
+        <source src="./Task-9(sub-folder)/ElephantsDream.mp4">
+    </video><br><br>
+
+
+    <!-- canvas element -->
+    <canvas id="myCanvas" width="400" height="200" style="border:1px solid black;"></canvas>
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "lightblue";
+        ctx.fillRect(50,50,150,75);
+        ctx.strokeStyle = "blue";
+        ctx.lineWidth = 2;
+        ctx.strokeRect(50,50,150,75)
+    </script>
+</body>
+</html>
